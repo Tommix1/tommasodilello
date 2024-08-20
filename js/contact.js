@@ -40,7 +40,7 @@ $(document).ready(function(){
                 },
                 subject: {
                     required: "Devi inserire un Oggetto",
-                    minlength: "Il soggetto deve contenere almeno 3 caratteri"
+                    minlength: "L\'Oggetto deve contenere almeno 3 caratteri"
                 },
                 number: {
                     required: "Devi inserire un Oggetto",
