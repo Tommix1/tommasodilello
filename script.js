@@ -1,7 +1,7 @@
 // Funzione per la registrazione dell'utente
 const registerUser = async (userData) => {
     try {
-        const response = await fetch('http://localhost:5000/auth/register', {
+        const response = await fetch('http://tommasodilello.it/auth/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

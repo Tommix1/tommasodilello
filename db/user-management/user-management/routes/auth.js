@@ -36,7 +36,7 @@ router.post('/forgot-password', async (req, res) => {
         await user.save();
 
         // Invia l'email all'utente con il link di reimpostazione
-        const resetLink = `http://localhost:5000/reset-password/${token}`;
+        const resetLink = `http://tommasodilello.it/reset-password/${token}`;
         const mailOptions = {
             from: process.env.EMAIL_USER,
             to: user.email,
