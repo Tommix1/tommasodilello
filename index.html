@@ -1,421 +1,61 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Info Sito -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Tommaso Di Lello | Curriculum</title>
-        <!-- CSS Sito -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
-        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-        <!-- CSS PRINCIPALE -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body>
-        
-        <!--================ BANDA =================-->
-        <header class="header_area">
-            <div class="main_menu">
-            	<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container box_1620">
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione e Tabella Dati</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestione Dati Utenti</h1>
+    </header>
 
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+    <main>
+        <!-- Sezione Login -->
+        <section class="login-form card">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginUsername">Nome Utente</label>
+                <input type="text" id="loginUsername" required aria-label="Nome Utente"><br>
 
-						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<!-- <li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									</ul>
-								</li>  -->
-								<!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contattami</a></li> -->
-							</ul>
-						</div> 
-					</div>
-            	</nav>
-            </div>
-        </header>
-        <!--================ BANDA =================-->
-        
-        <!--================ HOME =================-->
-        <section class="home_banner_area">
-           	<div class="container box_1620">
-           		<div class="banner_inner d-flex align-items-center">
-					<div class="banner_content">
-						<div class="media">
-							<div class="d-flex">
-								<img src="img/home.jpg" alt="">
-							</div>
-							<div class="media-body">
-								<div class="personal_text">
-									<h6>Sono</h6>
-									<h3>Tommaso Di Lello</h3>
-									<h4>Web Designer, Web Developer, Junior Graphic Designer</h4>
-									<p>Sono una persona profondamente curiosa, con una passione intensa per l'apprendimento e sempre alla ricerca di nuove conoscenze per ampliare il mio bagaglio culturale. La mia creatività e immaginazione mi portano a generare costantemente nuove soluzioni, idee e intuizioni, applicabili in diversi campi, non limitati solo a quelli artistici.</p>
-									<ul class="list basic_info">
-										<li><a href="https://www.google.com/search?q=23+Marzo+20008&rlz=1C1GCEA_enIT933IT933&oq=23+Marzo+20008&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCDMwNzRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank"><i class="lnr lnr-calendar-full"></i> 23 Marzo 2008</a></li>
-										<li><a href="tel:+393791030837"><i class="lnr lnr-phone-handset"></i> +39 379 103 0837</a></li>
-										<li><a href="mailto:dilellotommaso8@gmail.com"><i class="lnr lnr-envelope"></i> dilellotommaso8@gmail.com</a></li>
-									</ul>
-									<ul class="list personal_social">
-										<li><a href="https://www.facebook.com/tommaso.dilello.7/"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="https://www.instagram.com/tommaso.dilello/?hl=it"><i class="fa fa-instagram"></i></a></li>
-										<!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" required aria-label="Password"><br>
+
+                <button type="submit">Accedi</button>
+            </form>
         </section>
-        <!--================ HOME =================-->
-        
-        <!--================ HARD SKILLS =================-->
-        <section class="welcome_area p_120">
-        	<div class="container">
-        		<div class="row welcome_inner">
-        			<div class="col-lg-6">
-        				<div class="welcome_text">
-        					<h4>Chi Sono</h4>
-        					<p>Sono una persona profondamente curiosa, con una passione intensa per l'apprendimento e sempre alla ricerca di nuove conoscenze per ampliare il mio bagaglio culturale. La mia creatività e immaginazione mi portano a generare costantemente nuove soluzioni, idee e intuizioni, applicabili in diversi campi, non limitati solo a quelli artistici.</p>
-        					<div class="row">
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-6">
-        				<div class="tools_expert">
-        					<div class="skill_main">
-								<div class="skill_item">
-									<h4>Canva <span class="counter">85</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Photoshop <span class="counter">90</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>After Effects <span class="counter">70</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Illustrator <span class="counter">95</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>WEB Developing <span class="counter">75</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Premiere Pro <span class="counter">95</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Clipchamp <span class="counter">95</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Fillmora <span class="counter">95</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Worldpress <span class="counter">95</span>%</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
+
+        <p>Password Dimenticata? <a href="forgot-password.html">Reimposta la tua password</a></p>
+        <p>Non hai un account? <a href="registrati.html">Registrati</a></p>
+
+        <!-- Dashboard Utente -->
+        <section class="user-dashboard card" style="display: none;">
+            <h2>Benvenuto nella tua Dashboard</h2>
+            <form id="dataForm">
+                <label for="dataEntry">Inserisci Dato</label>
+                <input type="text" id="dataEntry" required aria-label="Inserisci dato"><br>
+                <button type="submit">Aggiungi Dato</button>
+            </form>
+
+            <h3>I tuoi dati</h3>
+            <table id="dataTable" aria-label="Tabella Dati">
+                <thead>
+                    <tr>
+                        <th>Dato</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+            <button id="logoutButton">Esci</button>
         </section>
-        <!--================ CHI SONO FINE =================-->
-        
-        <!--================ STUDI E ESPERIENZE =================-->
-        <!-- <section class="mytabs_area p_120">
-        	<div class="container">
-        		<div class="tabs_inner">
-					<ul class="nav nav-tabs" id="myTab" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Le mie esperienze</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">I miei studi</a>
-						</li>
-					</ul>
-					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-							<ul class="list">
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Marzo 2024 - Giugno 2024</p>
-										</div>
-										<div class="media-body">
-											<h4>Verba Volant Communication</h4>
-											<p>Junior Graphic Designer Stagista</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-							<ul class="list">
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Settembre 2019 - Giugno 2022</p>
-										</div>
-										<div class="media-body">
-											<h4>Scuole Medie</h4>
-											<p>Don Milani, Seregno (MB)</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Settembre 2022 - Giugno <br>2023</p>
-										</div>
-										<div class="media-body">
-											<h4>Prima Superiore</h4>
-											<p>IIS G. Meroni, Lissone (MB)</p>
-										</div>
-									</div>
-								</li>
-								<li>
-								<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Settembre 2023 - Giugno <br>2024</p>
-										</div>
-										<div class="media-body">
-											<h4>Seconda Superiore</h4>
-											<p>C.F.P. Terragni, Meda (MB)</p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-        		</div>
-        	</div>
-        </section> -->
-        <!--================ STUDI E ESPERIENZE =================-->
-        
-        <!--================ COMPETENZE =================-->
-        <section class="feature_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>COMPETENZE</h2>
-        			<p>Di seguito una lista di tutte le mie competenze</p>
-        		</div>
-        		<div class="feature_inner row">
-        			<div class="col-lg-4 col-md-6">
-        				<div class="feature_item">
-        					<i class="flaticon-city"></i>
-        					<h4>Web Developer</h4>
-        					<p>Creazione siti web di ogni genere e forma. Su richiesta del cliente</p>
-        				</div>
-        			</div>
-					<div class="col-lg-4 col-md-6">
-        				<div class="feature_item">
-        					<i class="flaticon-sketch"></i>
-        					<h4>Graphic Designer</h4>
-        					<p>Competenze grafiche nell'utilizzo di Photoshop, Illustrator, After Effects, Premiere Pro, Canva e Clipchamp</p>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-6">
-        				<div class="feature_item">
-        					<i class="flaticon-skyline"></i>
-        					<h4>Social Media Manager</h4>
-        					<p>Sono molto formato sulla gestione dei social media. Come Instagram, Linkedin, YouTube e Facebook. Sia sul brain stoarming/piano editoriale, sia sulla creazione effettiva del contenuto e sulla pubblicazione.</p>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================ COMPETENZE =================-->
-        
-        <!--================ PORTFOLIO =================-->
-        <section class="home_gallery_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>PORTFOLIO</h2>
-        		</div>
-        		<div class="isotope_fillter">
-        			<ul class="gallery_filter list">
-						<li class="active" data-filter="*"><a href="#">TUTTI</a></li>
-						<li data-filter=".brand"><a href="#">GRAFICHE STATICHE</a></li>
-						<li data-filter=".manipul"><a href="#">GRAFICHE ANIMATE</a></li>
-						<li data-filter=".creative"><a href="#">VIDEO</a></li>
-						<li data-filter=".design"><a href="#">SITI WEB</a></li>
-					</ul>
-        		</div>
-        	</div>
-        	<div class="container">
-        		<div class="gallery_f_inner row imageGallery1">
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/sitomilanotech.png" alt="">
-        						<a class="light" href="img/gallery/sitomilanotech.png"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>Logo Milano Tech</h4>
-        						<p>Grafica Statica</p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/pickspet.png" alt="">
-        						<a class="light" href="img/gallery/pickspet.png"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>Logo PicksPet</h4>
-        						<p>Grafica Statica</p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 design">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/sitomilanotech2.png" alt="">
-        						<a class="light" href="https://millano-tech.it" target="_blank"><img src="img/gallery/link.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4><a href="https://milano-tech.it" target="_blank">Sito Milano Tech</a></h4>
-        						<p>Sito Web</p>
-        					</div>
-        				</div>
-        			</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================ PORTFOLIO =================-->
-        
-        <!--================ FOOTER =================-->
-        <footer class="footer_area p_120">
-        	<div class="container">
-        		<div class="row footer_inner">
-        			<div class="col-lg-5 col-sm-6">
-        				<aside class="f_widget ab_widget">
-        					<div class="f_title">
-        						<h3>Chi Sono</h3>
-        					</div>
-        					<p>Sono una persona profondamente curiosa, con una passione intensa per l'apprendimento e sempre alla ricerca di nuove conoscenze per ampliare il mio bagaglio culturale. La mia creatività e immaginazione mi portano a generare costantemente nuove soluzioni, idee e intuizioni, applicabili in diversi campi, non limitati solo a quelli artistici.</p>
-        					<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Tommaso Di Lello</a></p>
-							<p><a href="password.html" target="_blank" class="fa fa-lock"> Area Riservata</a></p>
-        				</aside>
-        			</div>
-        			<!-- <div class="col-lg-5 col-sm-6">
-        				<aside class="f_widget news_widget">
-        					<div class="f_title">
-        						<h3>Contattami</h3>
-        					</div>
-        					<p>Inserisci la mail di segutio per essere ricontattato</p>
-        					<div id="mc_embed_signup">
-                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                                	<div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Inserisci E-Mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                        <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>		
-                                    </div>				
-                                    <div class="mt-10 info"></div>
-                                </form>
-                            </div>
-        				</aside>
-        			</div> -->
-        			<div class="col-lg-2">
-        				<aside class="f_widget social_widget">
-        					<div class="f_title">
-        						<h3>Social</h3>
-        					</div>
-        					<ul class="list">
-        						<li><a href="https://www.facebook.com/tommaso.dilello.7/"><i class="fa fa-facebook"></i></a></li>
-        						<li><a href="https://www.instagram.com/tommaso.dilello/?hl=it"><i class="fa fa-instagram"></i></a></li>
-        						<li><a href="mailto:dilellotommaso8@gmail.com"><i class="fa fa-envelope"></i></a></li>
-        						<!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
-        					</ul>
-        				</aside>
-        			</div>
-        		</div>
-        	</div>
-        </footer>
-        <!--================ FOOTER =================-->
-        
-        
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
-    </body>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gestione Dati Utenti - Accessibile e Sicuro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
